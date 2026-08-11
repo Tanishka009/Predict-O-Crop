@@ -67,19 +67,24 @@ Predict-O-Crop/
 ├── .gitignore
 │
 ├── assets/
-│   ├── rice.jpg
-│   ├── maize.jpg
 │   ├── banana.jpg
-│   ├── cotton.jpg
 │   ├── coffee.jpg
-│   ├── apple.jpg
-│   ├── mango.jpg
-│   └── orange.jpg
+│   └── ...
+│
+├── Data-processed/
+│   └── crop_recommendation.csv
 │
 ├── models/
-│   └── RandomForest.pkl
+│   ├── DecisionTree.pkl
+│   ├── NBClassifier.pkl
+│   ├── RandomForest.pkl
+│   ├── SVMClassifier.pkl
+│   └── XGBoost.pkl
 │
-└── notebooks/
+└── Notebooks/
+    ├── crop_data_preparation.ipynb
+    ├── Crop_Recommendation_Model.ipynb
+    └── Final_Recommendationdata_creation.ipynb
 ```
 
 ---
