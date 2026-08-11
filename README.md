@@ -1,5 +1,9 @@
 # 🌱 Predict-O-Crop
 
+## 🚀 Live Demo
+
+[Try the App](https://predict-o-crop.streamlit.app/)
+
 ## Overview
 
 Predict-O-Crop is a Machine Learning-based Crop Recommendation System that suggests the most suitable crop based on soil nutrients and environmental conditions.
